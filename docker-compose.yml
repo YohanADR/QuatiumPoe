@@ -1,0 +1,8 @@
+version: "3"
+services:
+  selenium:
+    image: QuatiumPoe/selenium
+    build: 
+      dockerfile: python/Dockerfile
+    ports:
+      - "4444:4444"
